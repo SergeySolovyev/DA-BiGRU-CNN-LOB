@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Model weights and checkpoints (too large for git)
+*.pt
+*.onnx
+*.onnx.data
+*.cbm
+*.npz
+
+# Datasets (too large for git)
+datasets/
+
+# Submissions
+submission/
+*.zip
+
+# Node.js
+node_modules/
+package-lock.json
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.lof
+paper/*.lot
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Misc
+*.bak
+nul
+.claude/
+
+# Competition materials (not for public repo)
+Wunder Fund RNN challenge*.pdf
+WunderFund_*.pptx
+slides_data.json
+slide_viewer.html
+serve_slides.py
+server.js
+create_presentation.js
+build_presentation_pptx.py
+presentation_*.md
+
+# Catboost internal
+catboost_info/
+
+# Old/backup files
+weights/
+research_outputs/
+v1_gru_0.2662/
